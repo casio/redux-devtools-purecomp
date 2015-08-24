@@ -10,7 +10,7 @@ const SWITCH_LANG = 'switch_lang',
 let prevState
 
 const finalCreateWMiddleware = compose(
-	devTools(),
+	// devTools(),
 	createStore
 )
 
